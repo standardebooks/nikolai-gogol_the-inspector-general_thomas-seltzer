@@ -2,8 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Core drama */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -42,7 +41,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -110,42 +108,13 @@ tr.together td{
 	vertical-align: middle;
 }
 
-tr.together td:only-child,
 tr.together td + td{
 	border-left: 1px solid;
 }
-
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
-}
-
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
 }
 /* End together dialog */
-
-/* Editorial stage directions */
-[epub|type~="z3998:stage-direction"].editorial::before{
-	content: "[";
-}
-
-[epub|type~="z3998:stage-direction"].editorial::after{
-	content: "]";
-}
-/* End editorial stage directions */
-
-/* Stage direction abbr */
-abbr[epub|type~="z3998:stage-direction"]{
-	font-style: normal;
-	font-variant: all-small-caps;
-}
-
-abbr[epub|type~="z3998:stage-direction"]::before,
-abbr[epub|type~="z3998:stage-direction"]::after{
-	content: "";
-}
-/* End stage direction abbr */
 
 /* Dramatis Personae */
 [epub|type~="z3998:dramatis-personae"]{
@@ -166,35 +135,4 @@ abbr[epub|type~="z3998:stage-direction"]::after{
 	font-style: italic;
 	margin: 1em;
 }
-
-[epub|type~="z3998:dramatis-personae"] ul + p{
-	margin-top: 2em;
-}
 /* End Dramatis Personae */
-
-/* Footer */
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-/* End Footer */
-
-/* Verse blockquotes */
-[epub|type~="z3998:verse"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:verse"] p > span + br{
-	display: none;
-}
-/* End verse blockquotes */
-
-/* Text */
-/* Text */
