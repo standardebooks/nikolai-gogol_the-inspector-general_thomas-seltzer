@@ -111,6 +111,7 @@ tr.together td{
 tr.together td + td{
 	border-left: 1px solid;
 }
+
 [epub|type~="z3998:drama"] .together td:last-child{
 	padding-left: .5em;
 }
