@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/nikolai-gogol/the-inspector-general/thomas-seltzer</dc:identifier>
 		<dc:date>2026-03-11T19:07:05Z</dc:date>
 		<meta property="dcterms:modified">2026-03-11T19:07:05Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -40,8 +41,8 @@
 		<dc:subject id="subject-3">Russian drama -- Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2010111598</meta>
-		<meta property="se:subject">Comedy</meta>
-		<meta property="se:subject">Drama</meta>
+		<meta property="schema:genre">Comedy</meta>
+		<meta property="schema:genre">Drama</meta>
 		<dc:description id="description">Corrupt officials in a small Russian town are thrown into disarray by the arrival of an Inspector General from the central government.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;A small Russian town is a corrupt mess: prisoners aren’t being fed, invalids are left to die, trash piles up against monuments, the courthouse is being used to hold livestock, and all the officials are taking bribes. But suddenly everybody is put on alert by the news that an Inspector General from the central government is due to arrive, incognito—and when it’s discovered that a suspicious young man from St. Petersburg is staying at the town inn, all is thrown into disarray. With the governor trying to bribe him, the governor’s daughter trying to woo him, and the town’s merchants trying to convince him to usurp the governor himself, is this young man—the supposed Inspector General—all that he seems?&lt;/p&gt;
@@ -50,33 +51,35 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3735</dc:source>
 		<dc:source>https://archive.org/details/inspectorgeneral00gogouoft</dc:source>
-		<meta property="se:word-count">27205</meta>
-		<meta property="se:reading-ease.flesch">79.26</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Government_Inspector</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/nikolai-gogol_the-inspector-general_thomas-seltzer</meta>
+		<meta property="schema:wordCount">27205</meta>
+		<meta property="schema:educationalLevel">79.26</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Government_Inspector" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/nikolai-gogol_the-inspector-general_thomas-seltzer" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Nikolai Gogol</dc:creator>
 		<meta property="file-as" refines="#author">Gogol, Nikolai</meta>
-		<meta property="se:name.person.full-name" refines="#author">Nikolai Vasilievich Gogol</meta>
+		<meta property="schema:alternateName" refines="#author">Nikolai Vasilievich Gogol</meta>
 		<meta property="alternate-script" refines="#author">Николай Гоголь</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Nikolai_Gogol</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056736</meta>
+		<link href="https://en.wikipedia.org/wiki/Nikolai_Gogol" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79056736.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator">Thomas Seltzer</dc:contributor>
 		<meta property="file-as" refines="#translator">Seltzer, Thomas</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Thomas_Seltzer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/nr90003742</meta>
+		<link href="https://en.wikipedia.org/wiki/Thomas_Seltzer" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr90003742.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Christiaan Julius Lodewijk Portman</dc:contributor>
 		<meta property="file-as" refines="#artist">Portman, Christiaan Julius Lodewijk</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2014128400</meta>
+		<link href="https://id.loc.gov/authorities/names/no2014128400.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judy Boss</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Judy, Boss</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">David, Widger</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Asher Smith</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Smith, Asher</meta>
@@ -88,7 +91,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
