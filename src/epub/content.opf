@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/nikolai-gogol/the-inspector-general/thomas-seltzer</dc:identifier>
 		<dc:date>2026-03-11T19:07:05Z</dc:date>
@@ -43,11 +43,11 @@
 		<meta property="term" refines="#subject-3">sh2010111598</meta>
 		<meta property="schema:genre">Comedy</meta>
 		<meta property="schema:genre">Drama</meta>
-		<dc:description id="description">Corrupt officials in a small Russian town are thrown into disarray by the arrival of an Inspector General from the central government.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Corrupt officials in a small Russian town are thrown into disarray by the arrival of an Inspector General from the central government.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;A small Russian town is a corrupt mess: prisoners aren’t being fed, invalids are left to die, trash piles up against monuments, the courthouse is being used to hold livestock, and all the officials are taking bribes. But suddenly everybody is put on alert by the news that an Inspector General from the central government is due to arrive, incognito—and when it’s discovered that a suspicious young man from St. Petersburg is staying at the town inn, all is thrown into disarray. With the governor trying to bribe him, the governor’s daughter trying to woo him, and the town’s merchants trying to convince him to usurp the governor himself, is this young man—the supposed Inspector General—all that he seems?&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol"&gt;Nikolai Gogol&lt;/a&gt; was known for his short fiction when he published &lt;i&gt;The Inspector General&lt;/i&gt;; in a time of strict censorship. Permission to perform the play was obtained through personal approval by Czar Nicholas I, who was present at the play’s premiere in 1836. Widely regarded as one of the great plays not only of the Russian canon but in the history of comedic theater, &lt;i&gt;The Inspector General&lt;/i&gt; has been adapted dozens of times for film, television, radio, and opera, and has been staged around the world.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3735</dc:source>
 		<dc:source>https://archive.org/details/inspectorgeneral00gogouoft</dc:source>
