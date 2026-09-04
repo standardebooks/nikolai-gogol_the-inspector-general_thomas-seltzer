@@ -35,10 +35,10 @@
 		<dc:subject id="subject-1">Comedy plays</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
-		<dc:subject id="subject-2">Russia -- Social life and customs -- Drama</dc:subject>
+		<dc:subject id="subject-2">Russia--Social life and customs--Drama</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<dc:subject id="subject-3">Russian drama -- Translations into English</dc:subject>
+		<dc:subject id="subject-3">Russian drama--Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2010111598</meta>
 		<meta property="schema:genre">Comedy</meta>
