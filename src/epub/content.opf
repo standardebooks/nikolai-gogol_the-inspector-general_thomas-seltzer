@@ -67,7 +67,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator">Thomas Seltzer</dc:contributor>
 		<meta property="file-as" refines="#translator">Seltzer, Thomas</meta>
-		<link href="https://en.wikipedia.org/wiki/Thomas_Seltzer" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Thomas_Seltzer_(translator)" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/nr90003742.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Christiaan Julius Lodewijk Portman</dc:contributor>
@@ -75,11 +75,12 @@
 		<link href="https://id.loc.gov/authorities/names/no2014128400.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judy Boss</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Judy, Boss</meta>
+		<meta property="file-as" refines="#transcriber-1">Boss, Judy</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">David, Widger</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Asher Smith</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Smith, Asher</meta>
